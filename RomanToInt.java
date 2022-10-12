@@ -1,4 +1,4 @@
-import java.beans.PropertyEditorManager;
+// roman to int
 import java.util.Scanner;
 
 public class RomanToInt {
@@ -36,7 +36,7 @@ public class RomanToInt {
                     num = 1000;
                     break;
             }
-            if (num * 2 < answer) {
+            if (num * 3 < answer) {
                 answer -= num;
             } else {
                 answer += num;

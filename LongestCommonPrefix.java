@@ -29,7 +29,7 @@ public class LongestCommonPrefix {
                     return StringBuilder.toString();
                 }
             }
-            // add to current list. 
+            // add to current list.
             StringBuilder.append(current);
         }
         return StringBuilder.toString();

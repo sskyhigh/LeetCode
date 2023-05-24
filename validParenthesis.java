@@ -4,6 +4,7 @@
 //        "()"
 //        "()[]{}"
 //        "(]"
+// "[" = should return false;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -33,6 +34,7 @@ public class validParenthesis {
                 return false;
             }
         }
+        
         return characterStack.empty();
     }
 }

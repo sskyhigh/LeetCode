@@ -5,11 +5,11 @@ public class removeDupliactes {
     public int removeDuplicates(int [] nums){
         int count = 0;
         for(int i = 0; i<nums.length; ++i){
-            if(nums[i] - 1 == nums[i] + 1){
-                continue;
-            }
+
         }
-        
+        for(int i = 0; i<nums.length; ++i){
+            
+        }
         return count;
     }
 }

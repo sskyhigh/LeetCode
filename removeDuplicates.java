@@ -11,6 +11,7 @@ public class removeDuplicates {
 
     public static int removeDuplicates(int[] nums) {
         int i = 0;
+        // i - 1 checks the next neighboring element 
         for (int num : nums) {
             if (i < 1 || num > nums[i - 1]) {
                 nums[i++] = num;

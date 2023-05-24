@@ -34,7 +34,7 @@ public class validParenthesis {
                 return false;
             }
         }
-        
+
         return characterStack.empty();
     }
 }

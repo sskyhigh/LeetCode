@@ -2,9 +2,9 @@
 
 public class removeDuplicates {
     public static void main(String[] args) {
-        int [] nums = {1,2,3,4,4,5,6,6};
+        int[] nums = {1, 2, 3, 4, 4, 5, 6, 6};
         int l = removeDuplicates(nums);
-        for(int i = 1; i<l; ++i){
+        for (int i = 1; i < l; ++i) {
             System.out.println(i);
         }
     }

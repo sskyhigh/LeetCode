@@ -1,7 +1,7 @@
 import java.math.BigDecimal;
 import java.util.*;
 
-public class Main {
+public class currencyExchange {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String fxRates = scanner.nextLine();
@@ -59,7 +59,6 @@ public class Main {
                 }
             }
         }
-
         return BigDecimal.ZERO;
     }
 

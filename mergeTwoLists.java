@@ -29,7 +29,8 @@ public class mergeTwoLists {
         if (list2 == null) {
             return list1;
         }
-        ListNode head, temp;
+        ListNode temp, head;
+
         if (list1.val < list2.val) {
             temp = head = new ListNode(list1.val);
             list1 = list1.next;
@@ -37,6 +38,7 @@ public class mergeTwoLists {
             temp = head = new ListNode(list2.val);
             list2 = list2.next;
         }
+
         while (list1 != null && list2 != null) {
             if (list1.val < list2.val) {
                 temp.next = new ListNode(list1.val);
@@ -47,6 +49,7 @@ public class mergeTwoLists {
             }
             temp = temp.next;
         }
+
         while (list1 != null) {
             temp.next = new ListNode(list1.val);
             list1 = list1.next;
@@ -61,8 +64,8 @@ public class mergeTwoLists {
     }
 
     static class ListNode {
-        int val;
         ListNode next;
+        int val;
 
         ListNode(int val) {
             this.val = val;
